@@ -13,7 +13,7 @@ const CourseWorkLayout = () => {
                     <NavLink to="/course-work/sun-and-moon">
                         Sun And Moon{" "}
                     </NavLink>
-                    <NavLink to="/course-worl/responsive">Responsive</NavLink>
+                    <NavLink to="/course-work/responsive">Responsive</NavLink>
                 </nav>
                 <Outlet />
             </Inset>
