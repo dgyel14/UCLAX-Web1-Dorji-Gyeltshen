@@ -15,7 +15,7 @@ export default SingleEssay;
 // prop types
 SingleEssay.propTypes = {
     question: PropTypes.string.isRequired,
-    question: PropTypes.any,
+    children: PropTypes.any,
 };
 
 const SingleEssayStyled = styled.div`
