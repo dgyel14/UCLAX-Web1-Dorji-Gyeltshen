@@ -7,7 +7,9 @@ const Essays = () => {
         <EssaysStyled>
             <h2>Essays</h2>
 
-            <SingleEssay question={`Q1: Sample Question...`}>
+            <SingleEssay
+                question={`Q1: Explain the difference between HTML, CSS and JavaScript.`}
+            >
                 HTML is an abbreviation for HyperText Markup Language and it is
                 a code that is used to structure a web page and its contents.
                 CSS stands for Cascading Style Sheets Language and it is used to
@@ -22,7 +24,9 @@ const Essays = () => {
                 dynamic behavior to the webpage, allowing for manipulation of
                 HTML and CSS, and responding to user actions.
             </SingleEssay>
-            <SingleEssay question={`Q2: Sample Question...`}>
+            <SingleEssay
+                question={`Q2: What is the difference between Git and Github?`}
+            >
                 Git (Global Information Tracker) is a software that is installed
                 on the system, rather than it being on the cloud like GitHub. It
                 is used for tracking changes in source code during software
@@ -34,7 +38,9 @@ const Essays = () => {
                 the Git repositories. It provides a graphical interface for Git
                 repositories and provides free and paid plans.
             </SingleEssay>
-            <SingleEssay question={`Q3: Sample Question...`}>
+            <SingleEssay
+                question={`Q3: What is the difference between JQuery and React?`}
+            >
                 jQuery is used to simplify web development by manipulating HTML
                 elements, handling events, and making AJAX calls. jQuery is good
                 for adding interactive features to traditional websites. It
@@ -47,8 +53,25 @@ const Essays = () => {
                 applications with efficient data handling and component
                 reusability.
             </SingleEssay>
-            <SingleEssay question={`Q4: Sample Question...`}>
+            <SingleEssay
+                question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
+            >
                 Answer 4 goes here.
+            </SingleEssay>
+            <SingleEssay
+                question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
+                Answer 5 goes here.
+            </SingleEssay>
+            <SingleEssay
+                question={`Q6: What is the difference between jpg, gif, png and svg images?`}
+            >
+                Answer 6 goes here.
+            </SingleEssay>
+            <SingleEssay
+                question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
+            >
+                Answer 7 goes here.
             </SingleEssay>
         </EssaysStyled>
     );
