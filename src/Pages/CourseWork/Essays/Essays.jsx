@@ -56,7 +56,23 @@ const Essays = () => {
             <SingleEssay
                 question={`Q4: What is the difference between a Front-End and Back-End Developer?`}
             >
-                Answer 4 goes here.
+                The front-end developer is responsible for everything that users
+                interact with directly in their web browsers. They convert
+                design mockups into functional, interactive web pages using
+                HTML, CSS, and JavaScript. UX is involved to make sure that the
+                website is visually appealing and easy to navigate. They ensure
+                that the website works correctly across different browsers and
+                devices. It deals with the look and feel of the website and user
+                interactions. The back-end developer handles the server side of
+                web development. This involves everything that happens behind
+                the scenes, such as server logic, databases, and application
+                performance. They build and maintain the server, application
+                logic, and database management. Develop and manage database
+                schemas, and write queries to fetch and store data. Create and
+                manage APIs that allow the front-end and back-end to
+                communicate. Implement security measures to protect data and
+                user privacy. Languages commonly used are Python, Java, Ruby,
+                PHP, Node.js.
             </SingleEssay>
             <SingleEssay
                 question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
