@@ -77,17 +77,59 @@ const Essays = () => {
             <SingleEssay
                 question={`Q5: In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
             >
-                Answer 5 goes here.
+                There are many ways to link resources in React. For
+                root-relative paths, that start at the root of the domain, begin
+                with a / and tell us that the path is relative to the root
+                directory of the domain Document relative paths do not start
+                with a / and are based on the position of the file and the
+                location of the current document. It’s Useful when dealing with
+                relative URLs within a specific context or folder structure.
+                They change depending on the file’s location.
             </SingleEssay>
             <SingleEssay
                 question={`Q6: What is the difference between jpg, gif, png and svg images?`}
             >
-                Answer 6 goes here.
+                JPEG uses lossy compression, which means some image data is lost
+                during compression to reduce file size. This can lead to a
+                decrease in quality. Photographs and images with gradient
+                colors. It’s not ideal for images with sharp edges or text, as
+                the compression can cause artifacts. GIF is popular for small
+                animations and graphics with solid colors. GIF uses lossless
+                compression, which means no data is lost during compression.
+                (Graphics Interchange Format). PNG uses lossless compression,
+                preserving image quality without loss of data. Images that
+                require transparency, such as logos or graphics with text. Also
+                good for images that need to retain sharp details and quality.
+                SVG is a vector format and makes SVG images scalable without
+                losing quality. SVGs are great for web use.
             </SingleEssay>
             <SingleEssay
                 question={`Q7: Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps.`}
             >
-                Answer 7 goes here.
+                Product manager: Their role is to create, distribute, sell, and
+                obtain feedback for a product or service. They develop the
+                product vision and roadmap by analyzing their customers. Scrum
+                master: Keeps the team on track and organized and clears the
+                team from obstacles. It is a bridge between project management
+                and development. Responsible for managing the exchange of
+                information between team members UX Designer: Conducts user
+                research and surveys to make interacting with products, apps,
+                and websites a smooth process. Testing and iteration and
+                coordination with UI designers and developers
+                Developer/Engineer: Creates software products by designing,
+                programming, building, deploying, and maintaining software.
+                Works with UX designers QA/SDET: Quality assurance and Software
+                Development Engineer in Test. Develop test plans and test cases,
+                Execute test cases manually to verify that the software, bug
+                reporting and tracking. SDETs focus heavily on developing and
+                maintaining automated test frameworks and scripts. They apply
+                this expertise to design, develop, and maintain test frameworks
+                and tools. SDETs may also be involved in performance testing,
+                using tools and techniques to ensure the software performs well
+                DevOps: A DevOps role focuses on integrating and automating
+                processes between development and operations teams to streamline
+                the software delivery. DevOps professionals also address
+                security and compliance issues, and optimize system performance.
             </SingleEssay>
         </EssaysStyled>
     );
