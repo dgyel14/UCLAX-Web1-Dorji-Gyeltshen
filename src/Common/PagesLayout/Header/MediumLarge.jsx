@@ -25,7 +25,7 @@ const MediumLarge = () => {
 export default MediumLarge;
 
 const MediumLargeStyled = styled.div`
-    color: white;
+    color: #ffffff;
 
     .logo {
         .SiteLogo {
@@ -43,12 +43,12 @@ const MediumLargeStyled = styled.div`
 
             line-height: 30px;
             margin: 0px 0px 20px 5px;
-            border-bottom: solid 3px #e0c6ee;
+            border-bottom: solid 3px #ffffff;
 
             text-align: center;
             font-size: 12px;
             opacity: 0.8;
-            color: #e0c6ee;
+            color: #ffffff;
             font-weight: bold;
             text-decoration: none;
             text-transform: uppercase;
@@ -60,8 +60,8 @@ const MediumLargeStyled = styled.div`
             }
 
             &.active {
-                color: white;
-                border-bottom-color: white;
+                color: #ffffff;
+                border-bottom-color: #ffffff;
             }
         }
     }
