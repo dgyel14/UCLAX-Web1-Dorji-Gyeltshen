@@ -1,21 +1,23 @@
+import styled from "styled-components";
+
 import React from "react";
 import ReactPlayer from "react-player/youtube";
 
-const Videos = () => {
+const PortfolioVideo = () => {
     return (
-        <VideosStyled>
+        <PortfolioVideoStyled>
             <ReactPlayer
-                url="https://www.youtube.com/watch?v=Je4HjrF7SbY&ab_channel=TimelyBGS"
+                url="https://www.youtube.com/watch?v=OO2kPK5-qno&ab_channel=LofiCoffee"
                 width="100%"
                 height="100%"
             />
-        </VideosStyled>
+        </PortfolioVideoStyled>
     );
 };
 
-export default Videos;
+export default PortfolioVideo;
 
-const VideosStyled = styled.div`
+const PortfolioVideoStyled = styled.div`
     aspect-ratio: 4 / 1.5;
     margin-bottom: 20px;
     margin-top: 20px;
