@@ -13,7 +13,7 @@ export const tabbedData = [
         id: 2,
         image: image2,
         title: "Mission",
-        text: "<p>My mission is to create intuitive and engaging user experiences that both visually compelling and functionally effective. Driven by a passion for understanding user needs and implementing my skills in solving complex problems, I strive to design solutions that enhance usability and delight users.</p>",
+        text: "<p>My mission is to create intuitive and engaging user experiences that are both visually compelling and functionally effective. Driven by a passion for understanding user needs and implementing my skills in solving complex problems, I strive to design solutions that enhance usability and delight users.</p>",
     },
     {
         id: 3,
