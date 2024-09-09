@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 
 import Accolades from "./Accolades/Accolades";
 
-const StaffMember = ({ member }) => {
+const PortfolioItem = ({ member }) => {
     const { name, image, yearStarted, accolades } = member;
 
     return (
-        <StaffMemberStyled>
+        <PortfolioItemStyled>
             <img src={image} alt="{name}" />
             <h3>{name}</h3>
 
@@ -18,18 +18,18 @@ const StaffMember = ({ member }) => {
 
                 <Accolades accolades={accolades} />
             </div>
-        </StaffMemberStyled>
+        </PortfolioItemStyled>
     );
 };
 
-export default StaffMember;
+export default PortfolioItem;
 
 // prop-types
-StaffMember.propTypes = {
+PortfolioItem.propTypes = {
     member: PropTypes.object.isRequired,
 };
 
-const StaffMemberStyled = styled.div`
+const PortfolioItemStyled = styled.div`
     background-color: #eeeeee;
 
     img {

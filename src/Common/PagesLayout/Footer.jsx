@@ -12,10 +12,10 @@ const Footer = () => {
                     <SiteLogo />
                 </div>
                 <h2>
-                    CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO
+                    Dorji Gyeltshen Design :: Peace, Love, Unity, Fitness, Chill, and Respect :: Professor Mitch Gohman
                 </h2>
                 <div className="copyright">
-                    &copy; 2023. All rights reserved.
+                    &copy; Summer 2024. UCLA Web Design I: HTML, CSS and Java Script | Los Angeles, CA
                 </div>
             </Inset>
         </FooterStyled>

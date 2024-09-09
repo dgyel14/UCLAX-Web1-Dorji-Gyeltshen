@@ -1,33 +1,33 @@
-import slide1 from './img/Core-Strength.jpg';
-import slide2 from './img/Staff-In-Action.jpg';
-import slide3 from './img/Senior.jpg';
-import slide4 from './img/Group-Picture.jpg';
-import slide5 from './img/Aerial-Open-Gym.jpg';
+import slide1 from './img/Pawsh.png';
+import slide2 from './img/Venus.png';
+import slide3 from './img/Spotify.png';
+import slide4 from './img/Artfair.png';
+import slide5 from './img/Hinge.png';
 
 export const slidesData = [
     {
         id: 1,
         image: slide1,
-        title: 'Core Strength',
+        title: 'Pawsh App Redesign',
     },
     {
         id: 2,
         image: slide2,
-        title: 'Staff In Action',
+        title: 'Venus Clothing App',
     },
     {
         id: 3,
         image: slide3,
-        title: 'Senior',
+        title: 'Spotify Shuffle Redesign',
     },
     {
         id: 4,
         image: slide4,
-        title: 'Group Picture',
+        title: 'Art Fair Navigation Kiosk',
     },
     {
         id: 5,
         image: slide5,
-        title: 'Aerial Open Gym',
+        title: 'Hinge App Redesign',
     },
 ]
